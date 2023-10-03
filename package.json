@@ -1,0 +1,48 @@
+{
+  "name": "opennpm",
+  "version": "1.0.0",
+  "description": "Open the npm link for the package",
+  "homepage": "https://github.com/yyz945947732/opennpm",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "lint": "biome check --apply-unsafe ./src && biome format --write ./src",
+    "build": "tsup --config tsup.config.ts"
+  },
+  "type": "module",
+  "author": "yyz945947732 <945947732@qq.com>",
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "npmlink",
+    "package",
+    "open",
+    "opener",
+    "opens",
+    "launch",
+    "browser",
+    "website"
+  ],
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/yyz945947732/opennpm/issues",
+    "email": "945947732@qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyz945947732/opennpm.git"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.1.2",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.2",
+    "open": "^9.1.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "open-npm-link",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Open the npm link for target package",
   "homepage": "https://github.com/yyz945947732/open-npm-link",
   "main": "dist/index.js",

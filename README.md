@@ -20,11 +20,43 @@
   </a>
 </p>
 
+This is meant to be used in command-line tools and scripts, not in the browser.
+
 ## Install
 
 ```bash
 npm install --save opennpm
 ```
+
+**Warning:** This package is native [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and no longer provides a CommonJS export. If your project uses CommonJS, you will have to [convert to ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c) or use the [dynamic `import()`](https://v8.dev/features/dynamic-import) function. Please don't open issues for questions regarding CommonJS / ESM.
+
+## Usage
+
+```js
+import open from 'opennpm';
+
+// Opens the react npm link in the default browser.
+await open('lodash');
+
+// Opens the react npm link in the specified browser.
+await open('lodash', 'chrome');
+```
+
+### API
+
+```js
+function(packageName?: string, browser?: string): string;
+```
+
+## Supported browser
+
+- [`chrome`](https://www.google.com/chrome) - Web browser
+- [`firefox`](https://www.mozilla.org/firefox) - Web browser
+- [`edge`](https://www.microsoft.com/edge) - Web browser
+- `browser` - Default web browser
+- `browserPrivate` - Default web browser in incognito mode
+
+`browser` and `browserPrivate` only supports `chrome`, `firefox`, and `edge`.
 
 ## LICENSE
 

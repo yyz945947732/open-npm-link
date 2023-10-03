@@ -21,6 +21,6 @@ export default async function (
   if (!packageName) {
     return await open(NPM_LINK, options);
   }
-  const targetLink = `${NPM_PACKAGE_LINK}${packageName}`;
+  const targetLink = `${NPM_PACKAGE_LINK}/${packageName}`;
   return await open(targetLink, options);
 }

@@ -58,6 +58,10 @@ function(packageName?: string, browser?: string): string;
 
 `browser` and `browserPrivate` only supports `chrome`, `firefox`, and `edge`.
 
+## Related
+
+- [open-npm-link-cli](https://github.com/yyz945947732/open-npm-link-cli) - CLI for this module
+
 ## LICENSE
 
 [MIT](https://github.com/yyz945947732/open-npm-link/blob/master/LICENSE)

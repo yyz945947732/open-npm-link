@@ -1,8 +1,8 @@
 {
-  "name": "opennpm",
+  "name": "open-npm-link",
   "version": "1.0.0",
   "description": "Open the npm link for the package",
-  "homepage": "https://github.com/yyz945947732/opennpm",
+  "homepage": "https://github.com/yyz945947732/open-npm-link",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -28,12 +28,12 @@
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/yyz945947732/opennpm/issues",
+    "url": "https://github.com/yyz945947732/open-npm-link/issues",
     "email": "945947732@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yyz945947732/opennpm.git"
+    "url": "git+https://github.com/yyz945947732/open-npm-link.git"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.1.2",

@@ -1,7 +1,7 @@
 {
   "name": "open-npm-link",
   "version": "1.0.0",
-  "description": "Open the npm link for the package",
+  "description": "Open the npm link for target package",
   "homepage": "https://github.com/yyz945947732/open-npm-link",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,11 +37,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.1.2",
+    "@types/node": "^20.8.2",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@types/node": "^20.8.2",
     "open": "^9.1.0"
   }
 }
